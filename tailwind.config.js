@@ -1,0 +1,113 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary-fixed-dim": "#bec6e0",
+        "primary-fixed": "#dae2fd",
+        "inverse-on-surface": "#eff1f3",
+        "on-tertiary": "#ffffff",
+        "on-surface": "#191c1e",
+        "surface-container-lowest": "#ffffff",
+        "outline-variant": "#c6c6cd",
+        "tertiary": "#000000",
+        "surface-tint": "#565e74",
+        "on-primary-fixed": "#131b2e",
+        "on-tertiary-container": "#3980f4",
+        "inverse-primary": "#bec6e0",
+        "background": "#f8fafc",
+        "secondary-fixed": "#89f5e7",
+        "on-tertiary-fixed-variant": "#004395",
+        "tertiary-fixed-dim": "#adc6ff",
+        "on-error-container": "#93000a",
+        "tertiary-container": "#001a42",
+        "on-background": "#191c1e",
+        "surface-bright": "#ffffff",
+        "primary-container": "#0f172a",
+        "error-container": "#ffdad6",
+        "surface-variant": "#e2e8f0",
+        "surface": "#ffffff",
+        "surface-dim": "#d8dadc",
+        "surface-container-highest": "#e2e8f0",
+        "on-primary": "#ffffff",
+        "error": "#ba1a1a",
+        "secondary-fixed-dim": "#6bd8cb",
+        "on-surface-variant": "#475569",
+        "inverse-surface": "#1e293b",
+        "on-secondary-container": "#0f766e",
+        "secondary": "#0d9488",
+        "brand-teal": "#0d9488",
+        "brand-navy": "#0f172a",
+        "on-primary-container": "#94a3b8",
+        "on-primary-fixed-variant": "#3f465c",
+        "on-secondary-fixed": "#00201d",
+        "surface-container-low": "#f1f5f9",
+        "on-secondary-fixed-variant": "#005049",
+        "outline": "#94a3b8",
+        "tertiary-fixed": "#d8e2ff",
+        "on-error": "#ffffff",
+        "surface-container": "#e2e8f0",
+        "on-tertiary-fixed": "#001a42",
+        "secondary-container": "#ccfbf1",
+        "on-secondary": "#ffffff",
+        "primary": "#0f172a",
+        "surface-container-high": "#cbd5e1"
+      },
+      borderRadius: {
+        "DEFAULT": "0.25rem",
+        "lg": "0.5rem",
+        "xl": "0.75rem",
+        "2xl": "1rem",
+        "3xl": "1.5rem",
+        "full": "9999px",
+        "card": "20px"
+      },
+      spacing: {
+        "unit": "8px",
+        "margin-mobile": "20px",
+        "margin-desktop": "48px",
+        "gutter": "24px",
+        "section-gap": "100px",
+        "container-max": "1440px"
+      },
+      maxWidth: {
+        "container-max": "1440px",
+        "wide": "1536px"
+      },
+      fontFamily: {
+        "headline-sm": ["Manrope", "sans-serif"],
+        "display-lg": ["Manrope", "sans-serif"],
+        "body-lg": ["Inter", "sans-serif"],
+        "label-sm": ["Inter", "sans-serif"],
+        "headline-md": ["Manrope", "sans-serif"],
+        "label-md": ["Inter", "sans-serif"],
+        "display-lg-mobile": ["Manrope", "sans-serif"],
+        "body-md": ["Inter", "sans-serif"],
+        "sans": ["Inter", "sans-serif"],
+        "heading": ["Manrope", "sans-serif"]
+      },
+      fontSize: {
+        "headline-sm": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+        "display-lg": ["52px", { "lineHeight": "60px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+        "label-sm": ["12px", { "lineHeight": "16px", "fontWeight": "500" }],
+        "headline-md": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+        "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600" }],
+        "display-lg-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+        "body-md": ["16px", { "lineHeight": "26px", "fontWeight": "400" }]
+      },
+      boxShadow: {
+        "ambient": "0px 10px 30px rgba(15, 23, 42, 0.05)",
+        "soft": "0px 10px 30px rgba(15, 23, 42, 0.05)",
+        "hover": "0px 15px 40px rgba(15, 23, 42, 0.08)",
+        "card": "0px 4px 12px rgba(15, 23, 42, 0.03)"
+      }
+    },
+  },
+  plugins: [],
+}
